@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> May the best artist win</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<header>
+    <navbar>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <a href="" class="navbar-brand">GetheBest</a>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="navbar-items">
+                            <a href="#Home" class="navbar-item">Home</a>
+                            <a href="#About" class="navbar-item">About us</a>
+                            <a href="#Contact" class="navbar-item">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </navbar>
+</header>
+
+<body>
+
+    <main>
+        <div class="Home" id="Home">
+            <div class="container">
+                <h2>Let the games begin</h2>
+                <p class="intro">Dive into the world of pictures in nature and choose the one you like the most.</p>
+    </main>
+    <div class="main-container">
+        <div class="search-bar">
+            <input type="search" name="search" id="search" placeholder="Search">
+        </div>
+
+        <div class="images-container">
+            <a href="photos/01.jpg"
+                data-caption="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+                <img src="photos/thumbnails/01.jpg" alt="Hay Bales">
+            </a>
+            <a href="photos/02.jpg"
+                data-caption="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+                <img src="photos/thumbnails/02.jpg" alt="Lake">
+            </a>
+            <a href="photos/03.jpg"
+                data-caption="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+                <img src="photos/thumbnails/03.jpg" alt="Canyon">
+            </a>
+            <a href="photos/04.jpg"
+                data-caption="It was amazing to see an iceberg up close, it was so cold but didn’t snow today. ">
+                <img src="photos/thumbnails/04.jpg" alt="iceberg">
+            </a>
+            <a href="photos/05.jpg"
+                data-caption="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+                <img src="photos/thumbnails/05.jpg" alt="Desert">
+            </a>
+            <a href="photos/06.jpg"
+                data-caption="Fall is coming, I love when the leaves on the trees start to change color. ">
+                <img src="photos/thumbnails/06.jpg" alt="Fall">
+            </a>
+            <a href="photos/07.jpg" data-caption="I drove past this plantation yesterday, everything is so green!">
+                <img src="photos/thumbnails/07.jpg" alt="Plantation">
+            </a>
+            <a href="photos/08.jpg" data-caption="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+                <img src="photos/thumbnails/08.jpg" alt="Dunes">
+            </a>
+            <a href="photos/09.jpg" data-caption="We enjoyed a quiet stroll down this countryside lane.">
+                <img src="photos/thumbnails/09.jpg" alt="Countryside Lane">
+            </a>
+            <a href="photos/10.jpg" data-caption="Sunset at the coast! The sky turned a lovely shade of orange.">
+                <img src="photos/thumbnails/10.jpg" alt="Sunset">
+            </a>
+            <a href="photos/11.jpg"
+                data-caption="I did a tour of a cave today and the view of the landscape below was breathtaking.">
+                <img src="photos/thumbnails/11.jpg" alt="Cave">
+            </a>
+            <a href="photos/12.jpg"
+                data-caption="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+                <img src="photos/thumbnails/12.jpg" alt="Bluebells">
+            </a>
+        </div>
+    </div>
+    <h2>Summer Challenge</h2>
+    <button id="toggleButton">Show/Hide Details</button>
+    <div id="toggleContent" class="hidden">
+        <p>Here are some ideas for your summer fun:</p>
+        <ul>
+            <li>Visit the beach and and catch a picture with freshly caught fish</li>
+            <li>Enjoy refreshing summer cocktails with friends and mark it with the selfie.</li>
+            <li>Go for a swim in a cool lake or pool, definitely get the eagle picture.</li>
+            <li>Have a picnic in the park and post it on Instagram.</li>
+            <li>Explore new hiking trails, take pics of some dangerous animals.</li>
+        </ul>
+    </div>
+    <div id="app">
+        <h2>This is a Theme Switcher!</h2>
+        <button id="themeSwitcher">Switch Theme</button>
+    </div>
+
+
+
+    <aside id="archives" class="widget widget_archive">
+        <h3 class="widget-title">Archive</h3>
+        <ul>
+          <li><a href="#">2015</a>
+            <i class="fa fa-angle-down"></i>
+            <ul>
+              <li><a href="#">February 2015</a></li>
+              <li><a href="#">February 2015</a></li>
+            </ul>
+          </li>
+          <li><a href="#">2014</a>
+            <i class="fa fa-angle-down"></i>
+            <ul class="hide">
+              <li><a href="#">December 2014</a></li>
+              <li><a href="#">November 2014</a></li>
+              <li><a href="#">Mart 2014</a></li>
+              <li><a href="#">February 2014</a></li>
+              <li><a href="#">January 2014</a></li>
+            </ul>
+          </li>
+          <li><a href="#">2013</a>
+            <i class="fa fa-angle-down"></i>
+            <ul class="hide">
+              <li><a href="#">December 2013</a></li>
+              <li><a href="#">September 2013</a></li>
+            </ul>
+          </li>
+        </ul>
+      </aside>
+
+
+      <div class="container">
+        <form id="form" class="form">
+          <h2>Register With Us</h2>
+          <div class="form-control">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter username" />
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Enter email" />
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password" />
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <label for="password2">Confirm Password</label>
+            <input
+              type="password"
+              id="password2"
+              placeholder="Enter password again"
+            />
+            <small>Error message</small>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  
+
+
+    <script src="js/mine.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/rain.js"></script>
+    <script src="assets/js/jquery.spapp.js"></script>
+
+
+</body>
+
+</html>
